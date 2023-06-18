@@ -289,7 +289,7 @@
 
       <div class="container w-75 sm-screen-w100 py-4 text-md-center">
         <h2 class="fs-2 my-5">Solutions to fit your business needs</h2>
-        <div class="row">
+        <div class="row s4-max-width mx-auto">
           <div
             class="col sm-screen-w100 w-50 d-flex justify-content-center align-items-center">
             <div
@@ -331,7 +331,7 @@
             </div>
           </div>
         </div>
-        <div class="row">
+        <div class="row s4-max-width mx-auto">
           <div
             class="col sm-screen-w100 w-50 d-flex justify-content-center align-items-center">
             <div
@@ -417,8 +417,9 @@
             <p class="m-1 fw-medium text-white">How can I assist you today?</p>
           </div>
         </div>
-        <form action="" class="message-to-bot d-flex">
+        <form action="" onsubmit="nosubmit(event)" class="message-to-bot d-flex" method="POST">
           <input
+            name ="chat-message"
             type="text"
             class="message form-control"
             placeholder="Type here ..." />
@@ -429,6 +430,12 @@
         </form>
       </div>
     </div>
+
+    <script>
+      function nosubmit(e) {
+        e.preventDefault();
+      }
+    </script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
