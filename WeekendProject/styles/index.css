@@ -12,7 +12,7 @@ body {
   min-height: 100%;
 }
 
-/* Pseudo Classes */
+/* Psudo Classes */
 .letter-space-10 {
   letter-spacing: 0.06rem;
 }
@@ -38,7 +38,7 @@ body {
   font-weight: 400;
 }
 
-.no-pad {
+.nopad {
   padding: 0 !important;
 }
 
@@ -138,7 +138,7 @@ body {
   width: auto;
 }
 
-.s2-credit-card {
+.s2-creditcard {
   box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.152);
 }
 
@@ -206,7 +206,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  .s2-credit-card {
+  .s2-creditcard {
     flex-direction: column;
   }
 }
@@ -216,7 +216,7 @@ body {
     width: 100% !important;
     text-align: center;
   }
-  .s2-credit-card div img {
+  .s2-creditcard div img {
     max-width: 100%;
   }
   .card-width p {
