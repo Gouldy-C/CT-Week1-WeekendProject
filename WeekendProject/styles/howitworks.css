@@ -1,0 +1,137 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.nav-item {
+    padding: 0px;
+}
+
+.item {
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.focus .description {
+    font-size: 14px;
+}
+
+.focus .sign-in a {
+    text-decoration: none;
+    color: black;
+}
+
+.focus a:hover {
+    text-shadow: 10px;
+    color: #0D6EFD;
+}
+
+.focus .trial {
+    font-size: 10px;
+}
+
+
+.grid {
+    display: flex;
+}
+
+
+.grid .row {
+    height: 128px;
+    width: 100%;
+}
+
+.works p {
+    font-size: medium;
+}
+
+.sign-guy {
+    max-height: 280px;
+    max-width: 226px;
+}
+
+.my-auto-w {
+    min-width: 300px;
+}
+
+.feature {
+    aspect-ratio: 1 / 1;
+    max-width: 150px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.577);
+}
+
+.client {
+    border-radius: 45px 0px 0px 0px;
+}
+
+.profiles {
+    border-radius: 0px 45px 0px 45px;
+}
+
+.scheduling {
+    border-radius: 0px 45px 0px 0px;
+}
+
+.analytics-1 {
+    border-radius: 45px 0px 45px 0px;
+}
+
+.file {
+    border-radius: 45px 0px 45px 0px;
+}
+
+.time {
+    border-radius: 0px 0px 0px 45px;
+}
+
+.analytics-2 {
+    border-radius: 0px 45px 0px 45px;
+}
+
+.project {
+    border-radius: 0px 0px 45px 0px;
+}
+
+.works .border-round {
+    box-shadow: 0px 0px 5px black;
+
+}
+
+.deliver p {
+    font-size: 15px;
+}
+
+.works ul{
+    font-size: 9px !important;
+    margin-top: 10px !important;
+}
+
+.footer a {
+    font-weight: bold;
+    font-size: small;
+}
+
+.footer img {
+    padding-left: 5px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.get-started {
+    background-color: #2BC744;
+}
+
+.try {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+
+
